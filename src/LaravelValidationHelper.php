@@ -2,7 +2,9 @@
 
 namespace TalhaAnwar\LaravelValidationHelper;
 
+use talhaanwar\LaravelValidationHelper\Traits\LVH;
+
 class LaravelValidationHelper
 {
-    // Build your next great package.
+    use LVH;
 }
