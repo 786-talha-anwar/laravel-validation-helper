@@ -1,8 +1,8 @@
 {
-    "name": "786-talha-anwar/laravel-validation-helper",
+    "name": "dev-talha-anwar/laravel-validation-helper",
     "description": "This package is designed to use validation in laravel in very easy and efficient manner.",
     "keywords": [
-        "786-talha-anwar",
+        "dev-talha-anwar",
         "laravel-validation-helper"
     ],
     "homepage": "https://github.com/786-talha-anwar/laravel-validation-helper",
