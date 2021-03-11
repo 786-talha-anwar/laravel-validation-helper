@@ -1,0 +1,54 @@
+{
+    "name": "786-talha-anwar/laravel-validation-helper",
+    "description": "This package is designed to use validation in laravel in very easy and efficient manner.",
+    "keywords": [
+        "786-talha-anwar",
+        "laravel-validation-helper"
+    ],
+    "homepage": "https://github.com/786-talha-anwar/laravel-validation-helper",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Talha-Anwar",
+            "email": "786anwartalha@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TalhaAnwar\\LaravelValidationHelper\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TalhaAnwar\\LaravelValidationHelper\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "talhaanwar\\LaravelValidationHelper\\LaravelValidationHelperServiceProvider"
+            ],
+            "aliases": {
+                "LVH": "talhaanwar\\LaravelValidationHelper\\LaravelValidationHelperFacade"
+            }
+        }
+    }
+}
