@@ -1,11 +1,9 @@
 # Very short description of the package
 
-
-
-GitHub issues badge
-GitHub forks badge
-GitHub stars badge
-GitHub license badge
+[![GitHub issues](https://img.shields.io/github/issues/786-talha-anwar/laravel-validation-helper)](https://packagist.org/packages/talha-anwar/laravel-validation-helper)
+[![GitHub forks](https://img.shields.io/github/forks/786-talha-anwar/laravel-validation-helper)](https://travis-ci.org/talha-anwar/laravel-validation-helper)
+[![GitHub stars](https://img.shields.io/github/stars/786-talha-anwar/laravel-validation-helper)](https://scrutinizer-ci.com/g/talha-anwar/laravel-validation-helper)
+[![GitHub license](https://img.shields.io/github/license/786-talha-anwar/laravel-validation-helper)](https://packagist.org/packages/talha-anwar/laravel-validation-helper)
 
 simple validation utility for laravel validation
 
