@@ -34,9 +34,56 @@ use talhaanwar\LaravelValidationHelper\Traits\LVH;
 after that use fascade
 
 ``` php
-LVH::validate()
+$validated = LVH::validate(['Admin.AdminEditForm'], [
+            [
+                'key' => 'name',
+                'value' => ['max:191'],
+                'messages' => [
+                    'password.string' => 'Password shi likho.',
+                    'password.min' => 'itna bra password....'
+                ]
+            ]
+        ]);
+        if (!is_array($validated)) :
+            return $validated;
+        endif;
+```
+or
+
+``` php
+$validated = LVH::validate(['Admin.AdminEditForm']);
+        if (!is_array($validated)) :
+            return $validated;
+        endif;
 
 ```
+or
+
+``` php
+$validated = LVH::validate([], [
+            [
+                'key' => 'name',
+                'value' => ['max:191'],
+                'messages' => [
+                    'password.string' => 'Password shi likho.',
+                    'password.min' => 'itna bra password....'
+                ]
+            ]
+        ]);
+        if (!is_array($validated)) :
+            return $validated;
+        endif;
+```
+for simple form validation requests
+
+``` php
+$validated = LVH::validate(['Admin.AdminEditForm'],[],true);
+        if (!is_array($validated)) :
+            return $validated;
+        endif;
+```
+
+
 
 ### Testing
 
