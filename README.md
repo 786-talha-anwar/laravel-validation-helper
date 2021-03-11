@@ -1,4 +1,4 @@
-# Very short description of the package
+# simple Wrapper for laravel validator
 
 [![GitHub issues](https://img.shields.io/github/issues/dev-talha-anwar/laravel-validation-helper)](https://packagist.org/packages/talha-anwar/laravel-validation-helper)
 [![GitHub forks](https://img.shields.io/github/forks/dev-talha-anwar/laravel-validation-helper)](https://travis-ci.org/talha-anwar/laravel-validation-helper)
