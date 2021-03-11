@@ -12,7 +12,7 @@ simple validation utility for laravel validation
 You can install the package via composer:
 
 ```bash
-composer require talha-anwar/laravel-validation-helper
+composer require dev-talha-anwar/laravel-validation-helper
 ```
 
 ## Publishing Config
