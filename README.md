@@ -15,6 +15,15 @@ You can install the package via composer:
 composer require 786-talha-anwar/laravel-validation-helper
 ```
 
+## Publishing Config
+
+after installation publish the configurtion
+
+```bash
+php artisan vendor:publish --provider=TalhaAnwar\LaravelValidationHelper\LaravelValidationHelperServiceProvider
+```
+
+
 ## Usage
 
 ``` php
