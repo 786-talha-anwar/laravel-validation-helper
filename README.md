@@ -26,8 +26,16 @@ php artisan vendor:publish --provider=TalhaAnwar\LaravelValidationHelper\Laravel
 
 ## Usage
 
+after installation simply use trait in your controller on top
 ``` php
-// Usage description here
+use talhaanwar\LaravelValidationHelper\Traits\LVH;
+
+```
+after that use fascade
+
+``` php
+LVH::validate()
+
 ```
 
 ### Testing

@@ -53,7 +53,7 @@ class LaravelValidationHelperServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'laravel-validation-helper');
 
         // Register the main class to use with the facade
-        $this->app->singleton('laravel-validation-helper', function () {
+        $this->app->singleton('LVH', function () {
             return new LaravelValidationHelper;
         });
     }
