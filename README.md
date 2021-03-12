@@ -1,4 +1,4 @@
-# simple Wrapper for laravel validator
+# simple Utility for laravel validator
 
 [![GitHub issues](https://img.shields.io/github/issues/dev-talha-anwar/laravel-validation-helper)](https://packagist.org/packages/talha-anwar/laravel-validation-helper)
 [![GitHub forks](https://img.shields.io/github/forks/dev-talha-anwar/laravel-validation-helper)](https://travis-ci.org/talha-anwar/laravel-validation-helper)
@@ -39,8 +39,8 @@ $validated = LVH::validate(['Admin.AdminEditForm'], [
                 'key' => 'name',
                 'value' => ['max:191'],
                 'messages' => [
-                    'password.string' => 'Password shi likho.',
-                    'password.min' => 'itna bra password....'
+                    'password.string' => 'Password Must Be String.',
+                    'password.min' => 'Too long Password.'
                 ]
             ]
         ]);
@@ -65,8 +65,8 @@ $validated = LVH::validate([], [
                 'key' => 'name',
                 'value' => ['max:191'],
                 'messages' => [
-                    'password.string' => 'Password shi likho.',
-                    'password.min' => 'itna bra password....'
+                    'password.string' => 'Password Must Be String.',
+                    'password.min' => 'Too long Password.'
                 ]
             ]
         ]);
