@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "TalhaAnwar\\LaravelValidationHelper\\": "src"
+            "TalhaAnwar\\LaravelValidationHelper\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TalhaAnwar\\LaravelValidationHelper\\Tests\\": "tests"
+            "TalhaAnwar\\LaravelValidationHelper\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "TalhaAnwar\\LaravelValidationHelper\\LaravelValidationHelperServiceProvider"
+                "TalhaAnwar\\LaravelValidationHelper\\ValidationHelperServiceProvider"
             ],
             "aliases": {
-                "LVH": "TalhaAnwar\\LaravelValidationHelper\\LaravelValidationHelperFacade"
+                "LVH": "TalhaAnwar\\LaravelValidationHelper\\ValidationHelperFacade"
             }
         }
     }
