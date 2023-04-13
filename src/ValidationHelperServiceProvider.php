@@ -4,7 +4,7 @@ namespace TalhaAnwar\LaravelValidationHelper;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelValidationHelperServiceProvider extends ServiceProvider
+class ValidationHelperServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -54,7 +54,7 @@ class LaravelValidationHelperServiceProvider extends ServiceProvider
 
         // Register the main class to use with the facade
         $this->app->singleton('LVH', function () {
-            return new LaravelValidationHelper;
+            return new ValidationHelperFascade;
         });
     }
 }
