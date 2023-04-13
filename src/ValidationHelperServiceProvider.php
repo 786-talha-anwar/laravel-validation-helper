@@ -54,7 +54,7 @@ class ValidationHelperServiceProvider extends ServiceProvider
 
         // Register the main class to use with the facade
         $this->app->singleton('LVH', function () {
-            return new ValidationHelperFascade;
+            return new ValidationHelperFacade;
         });
     }
 }
