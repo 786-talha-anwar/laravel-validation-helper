@@ -3,6 +3,7 @@
 namespace TalhaAnwar\LaravelValidationHelper;
 
 use Illuminate\Support\ServiceProvider;
+use TalhaAnwar\LaravelValidationHelper\ValidationHelperFacade;
 
 class ValidationHelperServiceProvider extends ServiceProvider
 {
