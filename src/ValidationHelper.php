@@ -2,7 +2,7 @@
 
 namespace TalhaAnwar\LaravelValidationHelper;
 
-class LaravelValidationHelper
+class ValidationHelper
 {
 	    public function validate($rules = [], $extraFields = [], $flag2 = false)
     {
